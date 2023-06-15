@@ -1,5 +1,26 @@
 {
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
-    ]
+    ],
+    "yaml.customTags": [
+        "!Sub",
+        "!Ref",
+        "!Select",
+        "!GetAtt",
+        "!Join",
+        "!Select sequence",
+        "!split sequence",
+        "!Join sequence",
+        "!Import",
+        "!GetAtt",
+        "!GetAZs",
+        "!FindInMap",
+        "!Equals",
+        "!Equals sequence",
+        "!If sequence",
+        "!If"
+    ],
+    "yaml.schemas": {
+        "/workspace/aws-bootcamp-cruddur-2023/aws/cfn/service/template.yaml": "template.yaml",
+    }
 }
